@@ -99,3 +99,16 @@ h4 {
 nav {
   margin-top: -50px !important;
 }
+
+@media (max-width: 700px) {
+  .header-name,
+  .header-about {
+    font-size: 76px;
+  }
+}
+@media (max-width: 420px) {
+  .header-name,
+  .header-about {
+    font-size: 56px;
+  }
+}
